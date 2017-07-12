@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Inicializando o Jquery - Luciano Medeiros -->
+
+<title> Portfolio Luciano </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	
+	<!-- Aplicando funções nas tags -->
+	/*
+	$('h1').css("color", "red");
+	$('h1').hide();
+	$('h1').delay('1000');
+		$('h1').fadeIn("slow");
+			$('h1').text('PortFolio Luciano Medeiros');
+			*/
+			<!-- Colocando tudo em uma linha só ..>
+			
+			 /* $('h1').css("color", "red").hide().delay('1000').fadeIn("slow").text('PortFolio Luciano Medeiros'); */
+			 <!--Fazendo em blocos -->
+			
+<!-- Iniciando Função de Click -->
+		      /*$('h1')
+			 .css("color", "red")
+			 .hide().delay('1000')
+			 .fadeIn("slow")
+			 .text('PortFolio Luciano Medeiros')
+			
+			.click(function(){
+				
+				
+				 $('body').css("background","blue");
+				 $('h1').css("color","black");
+			
+			
+			});*/
+			
+			$(document).ready(function(){
+				
+				
+				
+				$('a').css({color:'red', display:'block'});
+				
+				<!-- Inserindo uma classe -->
+				$('.link2').css("color","green");
+				
+				<!-- Inserindo um ID -->
+				$('#link3').css("color","#000");
+				$('*').css("padding","10px");
+				$('h1, #link3').css("border-bottom","solid 3px blue"); 
+				
+				
+			
+			
+	
+    
+});
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+
+<h1> Luciano Medeiros </h1>
+
+
+<a href="#">Link 1</a>
+<a href="#" class="link2" >Link 2</a>
+<a href="#" id="link3" >Link 3</a>
+
+
+
+</body>
+</html>
